@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <button class="nav-button" onclick="navigateTo('stockvision.html')">😎 StockVision</button>
+        <button class="nav-button" onclick="navigateTo('index.html')">🏦 Stock Info</button>
+        <button class="nav-button selected">📉 Stock Prediction</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Stock Price Prediction</h1>
+            <p>Enhance Investment Decisions through Data-Driven Forecasting</p>
+            <button class="fork-button">⭐ Fork</button>
+        </header>
+
+        <!-- User Input Section -->
+        <div class="input-section">
+            <h2>User Input Features</h2>
+            <label for="stock-select">Choose a stock:</label>
+            <select id="stock-select">
+                <option value="xxx">XXX</option>
+                <option value="AAPL">Apple</option>
+                <option value="GOOGL">Google</option>
+                <option value="TSLA">Tesla</option>
+            </select>
+
+            <div class="radio-group">
+                <label><input type="radio" name="exchange" value="BSE" checked> BSE</label>
+                <label><input type="radio" name="exchange" value="NSE"> NSE</label>
+            </div>
+        </div>
+
+        <!-- Historical Data Section -->
+        <div class="data-section">
+            <h2>Historical Data</h2>
+            <canvas id="stock-chart"></canvas> <!-- Placeholder for Graph -->
+        </div>
+    </div>
+</body>
+</html>

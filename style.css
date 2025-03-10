@@ -120,3 +120,53 @@ canvas {
     background: #111;
     border-radius: 10px;
 }
+
+
+
+
+/* Info Sections */
+.info-section {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.info-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.info-section p, .info-section ul, .info-section ol {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Extra Section */
+.extra-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.extra-section a {
+    color: #4DA8DA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.extra-section a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}

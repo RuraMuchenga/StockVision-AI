@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockVision Overview</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <button class="nav-button selected">😎 StockVision</button>
+        <button class="nav-button" onclick="navigateTo('index.html')">🏦 Stock Info</button>
+        <button class="nav-button" onclick="navigateTo('stockprediction.html')">📉 Stock Prediction</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>📈 StockVision</h1>
+            <p>Predicting Stocks with ML</p>
+            <button class="fork-button">⭐ Fork</button>
+        </header>
+
+        <!-- Project Description -->
+        <div class="info-section">
+            <h2>What is StockVision?</h2>
+            <p>StockVision is a machine learning-powered stock price prediction app built with HTML, CSS, and JavaScript, and deployed on Vercel.</p>
+            <p>It helps investors make **data-driven decisions** using AI-based forecasting models.</p>
+        </div>
+
+        <!-- How It’s Built -->
+        <div class="info-section">
+            <h2>📊 How It’s Built</h2>
+            <ul>
+                <li><strong>Vercel</strong> - For web app hosting and UI</li>
+                <li><strong>YFinance</strong> - Fetches stock data from Yahoo Finance API</li>
+                <li><strong>StatsModels</strong> - ARIMA time series forecasting</li>
+                <li><strong>Plotly</strong> - Interactive financial charts</li>
+            </ul>
+        </div>
+
+        <!-- App Workflow -->
+        <div class="info-section">
+            <h2>🔄 App Workflow</h2>
+            <ol>
+                <li>User selects a stock ticker.</li>
+                <li>System fetches historical data.</li>
+                <li>ML models generate predictions.</li>
+                <li>Charts and insights are displayed.</li>
+            </ol>
+        </div>
+
+        <!-- Additional Elements -->
+        <div class="extra-section">
+            <p>🔗 <a href="https://github.com/RuraMuchenga/StockVision-AI" target="_blank">View on GitHub</a></p>
+            <img src="background.jpg" alt="User Profile" class="profile-img">
+        </div>
+    </div>
+</body>
+</html>
